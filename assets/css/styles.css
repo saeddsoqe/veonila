@@ -1,0 +1,107 @@
+/* Global styles */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #f0e6d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image: url('assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  .cta-button {
+    background-color: #c5a97e; /* Champagne Gold */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .featured-perfumes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .perfume-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .perfume-categories {
+    padding: 40px;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .category-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category-item h3 {
+    font-size: 24px;
+  }
+  
+  .contact {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact ul li {
+    font-size: 18px;
+  }
+  
