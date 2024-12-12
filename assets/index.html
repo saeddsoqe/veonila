@@ -1,57 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Veonila Perfumes</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Veonila Fragrances - Indulge in luxurious aromas." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veonila Fragrances - Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat:400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-
-  <!-- Navigation -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="perfumes.html">Perfumes</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Veonila Perfumes</h1>
-      <p>Indulge in the luxurious essence of Veonila</p>
-      <a href="perfumes.html" class="cta-button">Explore Our Collection</a>
-    </div>
-  </section>
-
-  <!-- Featured Perfumes -->
-  <section class="featured-perfumes">
-    <h2>Featured Perfumes</h2>
-    <div class="perfume-grid">
-      <div class="perfume-item">
-        <img src="assets/images/perfume1.jpg" alt="Perfume 1">
-        <h3>Veonila No. 1</h3>
-        <p>A blend of floral and citrus notes...</p>
-        <a href="perfumes.html" class="cta-button">Shop Now</a>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Veonila</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content fade-in">
+          <h1>Veonila Fragrances</h1>
+          <p>Indulge in the Luxurious Essence of Veonila</p>
+          <a href="collections.html" class="btn-cta">Explore Our Collection</a>
       </div>
-      <div class="perfume-item">
-        <img src="assets/images/perfume2.jpg" alt="Perfume 2">
-        <h3>Veonila No. 2</h3>
-        <p>Spicy and oriental with a hint of vanilla...</p>
-        <a href="perfumes.html" class="cta-button">Shop Now</a>
-      </div>
-    </div>
   </section>
+  
+  <section class="featured">
+      <h2 class="fade-in">Our Signature Fragrances</h2>
+      <div class="product-grid">
+          <div class="product-card fade-in">
+              <img src="images/product1.jpeg" alt="Fragrance 1" />
+              <h3>Grand Étoile</h3>
+              <p>A delicate blend of jasmine and rose with a hint of musk.</p>
+              <a href="collections.html#floral" class="btn-link">Shop Now</a>
+          </div>
+          <div class="product-card fade-in">
+              <img src="images/product2.jpeg" alt="Fragrance 2" />
+              <h3>Nuit d’Or</h3>
+              <p>Warm notes of amber and vanilla to captivate your senses.</p>
+              <a href="collections.html#woody" class="btn-link">Shop Now</a>
+          </div>
+          <div class="product-card fade-in">
+              <img src="images/product3.jpeg" alt="Fragrance 3" />
+              <h3>Éclat Citrine</h3>
+              <p>Bright citrus, crisp bergamot, and subtle floral undertones.</p>
+              <a href="collections.html#citrus" class="btn-link">Shop Now</a>
+          </div>
+      </div>
+  </section>
+  
+    <!-- <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Veonila Fragrances</h1>
+            <p>Indulge in the Luxurious Essence of Veonila</p>
+            <a href="collections.html" class="btn-cta">Explore Our Collection</a>
+        </div>
+    </section> -->
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 Veonila. All rights reserved.</p>
-  </footer>
+    <!-- <section class="featured">
+        <h2>Our Signature Fragrances</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/product1.webp" alt="Fragrance 1" />
+                <h3>Grand Étoile</h3>
+                <p>A delicate blend of jasmine and rose with a hint of musk.</p>
+                <a href="collections.html#floral" class="btn-link">Shop Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.webp" alt="Fragrance 2" />
+                <h3>Nuit d’Or</h3>
+                <p>Warm notes of amber and vanilla to captivate your senses.</p>
+                <a href="collections.html#woody" class="btn-link">Shop Now</a>
+            </div>
 
+        </div>
+    </section> -->
+    <section class="feedback">
+      <h2>What Our Customers Are Saying</h2>
+      <div class="testimonial-grid">
+          <div class="testimonial">
+              <p>"The scent is absolutely divine! Veonila's perfumes are a true masterpiece in a bottle. It lasts all day and makes me feel elegant."</p>
+              <span>- Sophie L.</span>
+          </div>
+          <div class="testimonial">
+              <p>"Veonila fragrances are the epitome of luxury. The craftsmanship and attention to detail are unparalleled."</p>
+              <span>- Liam R.</span>
+          </div>
+          <div class="testimonial">
+              <p>"I’ve received so many compliments since I started wearing Veonila. The unique blend of notes is truly enchanting."</p>
+              <span>- Emma T.</span>
+          </div>
+      </div>  
+    </section>  
+    <section class="about-preview" id="about">
+        <div class="about-content">
+            <h2>Craftsmanship & Heritage</h2>
+            <p>
+                At Veonila, we believe fragrance is an art form. Our master perfumers carefully source the finest ingredients 
+                from around the world, blending them into exquisite aromas that evoke emotion and elegance.
+            </p>
+            <a href="about.html" class="btn-link">Learn More</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Follow us on:</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+                <a href="#" aria-label="Facebook" class="social-icon">FB</a>
+                <a href="#" aria-label="Twitter" class="social-icon">TW</a>
+            </div>
+            <form class="newsletter">
+                <input type="email" placeholder="Your Email" aria-label="Email Address" />
+                <button type="submit" class="btn-cta-sm">Sign Up</button>
+            </form>
+            <p class="copyright">
+                &copy; 2024 Veonila Fragrances. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- <script>
+    // Simple toggle for mobile nav
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-open');
+    });
+    </script> -->
+    <script src="js/script.js"></script>
 </body>
 </html>

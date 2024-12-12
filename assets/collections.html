@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Discover our curated fragrance collections." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veonila Fragrances - Collections</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat:400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Veonila</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html" class="active">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Our Collections</h1>
+        <p>Explore a world of scent families, each crafted with passion and precision.</p>
+    </section>
+
+    <section class="collections-list">
+        <article class="collection-category" id="floral">
+            <img src="images/product1.webp" alt="Floral Collection" />
+            <div class="category-info">
+                <h2>Floral & Romantic</h2>
+                <p>Soft petals, fresh blooms, and delicate aromas that evoke romance and femininity.</p>
+                <a href="#" class="btn-link">View Products</a>
+            </div>
+        </article>
+
+        <article class="collection-category" id="woody">
+            <img src="images/product1.webp" alt="Woody Collection" />
+            <div class="category-info">
+                <h2>Woody & Oriental</h2>
+                <p>Rich woods, exotic spices, and warm, resinous undertones for a sophisticated allure.</p>
+                <a href="#" class="btn-link">View Products</a>
+            </div>
+        </article>
+
+        <article class="collection-category" id="citrus">
+            <img src="images/product1.webp" alt="Citrus Collection" />
+            <div class="category-info">
+                <h2>Citrus & Vibrant</h2>
+                <p>Zesty citrus notes, crisp bergamot, and uplifting freshness for a bright aroma.</p>
+                <a href="#" class="btn-link">View Products</a>
+            </div>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Follow us on:</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+                <a href="#" aria-label="Facebook" class="social-icon">FB</a>
+                <a href="#" aria-label="Twitter" class="social-icon">TW</a>
+            </div>
+            <form class="newsletter">
+                <input type="email" placeholder="Your Email" aria-label="Email Address" />
+                <button type="submit" class="btn-cta-sm">Sign Up</button>
+            </form>
+            <p class="copyright">
+                &copy; 2024 Veonila Fragrances. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-open');
+    });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
