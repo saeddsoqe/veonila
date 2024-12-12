@@ -96,7 +96,7 @@ header, nav, section, footer {
 .hero {
   position: relative;
   height: 90vh;
-  background: url('../images/hero.jpg') no-repeat center center/cover;
+  background: url('../images/product1.jpeg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -323,7 +323,8 @@ header, nav, section, footer {
   transform: translateX(0);
 }
 
-.feedback {
+/*feedback without picsand stars*/
+/* .feedback {
   background-color: #222;
   color: #FAF9F6;
   padding: 60px 20px;
@@ -367,4 +368,70 @@ header, nav, section, footer {
   font-size: 0.9em;
   font-weight: bold;
   color: #C5A880;
+} */
+
+/*feedback with pics and stars*/
+.feedback {
+  background-color: #222;
+  color: #FAF9F6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #C5A880;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.testimonial {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial img.customer-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+  border: 2px solid #C5A880;
+}
+
+.testimonial p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #FAF9F6;
+}
+
+.testimonial span {
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #C5A880;
+}
+
+.stars {
+  color: #C5A880; /* Golden color */
+  font-size: 1.2em; /* Adjust the size as needed */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
